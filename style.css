@@ -1,0 +1,651 @@
+/*font-family: 'Archivo Black', sans-serif;
+font-family: 'Passion One', cursive;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'PT Sans Caption', sans-serif;*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	width: 100%;
+	height: 100vh;
+	background-image: url('hero img PH.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+	position: relative;
+}
+
+header nav ul {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 15px 25px;
+	margin-top: 60px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	transition: all 300ms;
+	padding: 15px 25px;
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+}
+
+header nav ul li a:hover {
+	background-color: rgba(255, 255, 255, 1);
+	color: #000;
+}
+
+header h1 {
+	font-family: Archivo Black, 'Roboto', Helvetica, Verdana, sans-serif;
+	font-size: 60px;
+	margin-top: 20%;
+	margin-bottom: 2%;
+}
+
+header h3 {
+	font-family: PT Sans Caption, 'Roboto', Helvetica, Verdana, sans-serif;
+	letter-spacing: 3px;
+	margin-bottom: 5%;
+}
+
+.border {
+	width: 45%;
+	height: 60%;
+	border: 1px solid #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* BUTTON ANIMATION */
+
+p {
+  color: #fff;
+  font-family: 'Roboto', Verdana;
+  line-height: 40px;
+  transition: all 300ms;
+}
+
+.main {
+  width: 160px;
+  height: 40px;
+  border: 1px solid #fff;
+  text-align: center;
+  left: 50%;
+  top: 60%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.behind {
+  width: 160px;
+  height: 40px;
+  border: 1px solid #fff;
+  left: 51%;
+  top: 61%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  transition: all 300ms;
+  z-index: 1;
+}
+
+.transformed-box {
+  background-color: #fff;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.transformed-p {
+  color: #000;
+}
+
+/* END BUTTON ANIMATION */
+
+/* END HEADER */
+
+/* START ABOUT */
+
+.about {
+	height: 700px;
+	width: 100%;
+	background-image: url('graffiti can PH.jpg');
+	background-size: cover;
+	position: relative;
+	color: #fff;
+	text-align: center;
+}
+
+.about h2 {
+	font-family: PT Sans Caption, 'Roboto', Helvetica, Verdana, sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) rotate(-90deg);
+}
+
+.about h1 {
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+	font-size: 55px;
+	width: 100px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 20%;
+}
+
+.bar {
+	height: 200px;
+	width: 2px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.about p {
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+
+}
+
+.about-border {
+	width: 40%;
+	height: 40%;
+	position: absolute;
+	top: 50%;
+	left: 1%;
+	transform: translateY(-50%);
+	border: 1px solid #fff;
+}
+
+/* END ABOUT */
+
+/* START SERVICES */
+
+.service {
+	width: 100%;
+	height: 400px;
+	background-image: url('services PH.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	text-align: center;
+}
+
+.service h2 {
+	font-family: PT Sans Caption, 'Roboto', Helvetica, Verdana, sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) rotate(-90deg);
+}
+
+.service p {
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+	width: 700px;
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.service h1 {
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+	font-size: 55px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	color: #fff;
+}
+
+/* END SERVICE */
+
+/* START ARTISTS */
+
+.artists {
+	width: 100%;
+	height: 700px;
+	position: relative;
+	background-color: #1e1d1c;
+}
+
+.artists h2 {
+	font-family: PT Sans Caption, 'Roboto', Helvetica, Verdana, sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) rotate(-90deg);
+}
+
+.artists .intro {
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.artists-tab {
+	width: 640px;
+	top: 20%;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.artists-tab .artist {
+	width: 200px;
+	height: 250px;
+	background-image: url('artist 1 PH.jpg');
+	background-size: cover;
+	position: relative;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.artists-tab .artist .data h4 {
+	line-height: 60px;
+}
+
+.artists-tab .artist .data {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0, 0, 0, .5);
+	bottom: 0px;
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+/* END ARTISTS */
+
+/* START PROJECTS */
+
+.projects {
+	width: 100%;
+	height: 700px;
+	background-image: url('projects PH.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.projects .button {
+	display: none;
+}
+
+.projects h2 {
+	font-family: PT Sans Caption, 'Roboto', Helvetica, Verdana, sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) rotate(-90deg);
+}
+
+.projects p {
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.projects-tab {
+	height: 500px;
+	width: 70%;
+	display: flex;
+	position: absolute;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	position: relative;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-project {
+	height: 500px;
+	width: 650px;
+	background-image: url('gas-mask-2273696.jpg');
+	background-size: cover;
+}
+
+.second {
+	display: flex;
+	height: 500px;
+	width: 20%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.second-first {
+	width: 250px;
+	height: 220px;
+	background-image: url('wall-2280524.jpg');
+	background-size: cover;
+}
+
+.second-second {
+	width: 250px;
+	height: 220px;
+	background-image: url('street-art-2046944.jpg');
+	background-size: cover;
+}
+
+/* END PROJECTS */
+
+/* START CONTACT */
+
+.contact {
+	width: 100%;
+	height: 700px;
+	background-color: #000;
+	position: relative;
+}
+
+.contact h2 {
+	font-family: PT Sans Caption, 'Roboto', Helvetica, Verdana, sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%) rotate(-90deg);
+}
+
+.contact p {
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.contact form {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	position: relative;
+	top: 30%;
+	transform: translateY(-50%);
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+}
+
+.contact form .input {
+	background-color: rgba(0, 0, 0, .3);
+	border: none;
+	padding: 10px;
+	margin: 10px 0px;
+	border: 1px solid #fff;
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+}
+
+.contact form .big {
+	height: 200px;
+	border: 1px solid #fff;
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+}
+
+.contact form .send {
+	width: 150px;
+	height: 40px;
+	border: 1px solid #fff;
+	position: relative;
+	top: 70%;
+	cursor: pointer;
+	transition: all 300ms;
+	font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+}
+
+.contact form .send p {
+	line-height: 40px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+	
+	header nav ul li {
+		display: inline-block;
+		margin: 15px 25px;
+		margin-top: 30px;
+	}
+	
+	header nav ul li a {
+		text-decoration: none;
+		color: #fff;
+		transition: all 300ms;
+		padding: 5px 15px;
+		font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+		font-size: 10px;
+	}
+
+	header h1 {
+		font-family: Archivo Black, 'Roboto', Helvetica, Verdana, sans-serif;
+		font-size: 30px;
+		margin-top: 20%;
+		margin-bottom: 2%;
+	}
+	
+	header h3 {
+		font-family: PT Sans Caption, 'Roboto', Helvetica, Verdana, sans-serif;
+		letter-spacing: 3px;
+		margin-bottom: 5%;
+		font-size: 17px;
+	}
+	
+	.border {
+		width: 55%;
+		height: 60%;
+		border: 1px solid #fff;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.about .bar {
+		display: none;
+	}
+
+	.about h1 {
+		font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+		font-size: 30px;
+		width: 200px;
+		position: absolute;
+		top: 20%;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		text-align: center;
+	}
+
+	.about p {
+		font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+		width: 300px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 15px;
+		text-align: right;
+	}
+
+	.service p {
+		font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+		width: 700px;
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.artists {
+		width: 100%;
+		height: 2400px;
+		position: relative;
+		background-color: #1e1d1c;
+	}
+
+	.artists .intro {
+		font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+		position: absolute;
+		top: 2%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.artists-tab {
+		width: 100%;
+		top: 5%;
+		position: absolute;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	
+	.artists-tab .artist {
+		width: 55%;
+		height: 350px;
+		background-image: url('artist 1 PH.jpg');
+		background-size: cover;
+		position: relative;
+		margin-bottom: 20px;
+		cursor: pointer;
+	}
+
+	.projects {
+		width: 100%;
+		height: 700px;
+		background-image: url('projects PH.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		position: relative;
+	}
+	
+	.projects .button {
+		width: 160px;
+  		height: 40px;
+  		border: 1px solid #fff;
+  		text-align: center;
+		top: 90%;
+		left: 60%;
+  		position: absolute;
+  		transform: translateX(-50%);
+		cursor: pointer;
+		display: block;
+	}
+
+	.projects .button:hover {
+		background-color: #fff;
+	}
+
+	.projects .button:hover > p {
+		color: #000;
+	}
+
+	.projects .button p {
+		line-height: 35px;
+	}
+	
+	.projects h2 {
+		font-family: PT Sans Caption, 'Roboto', Helvetica, Verdana, sans-serif;
+		color: #fff;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%) rotate(-90deg);
+	}
+	
+	.projects p {
+		font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+		position: absolute;
+		top: 5%;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%;
+		text-align: center;
+	}
+	
+	.projects-tab {
+		height: 500px;
+		width: 70%;
+		display: flex;
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		left: 60%;
+		position: relative;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	
+	.main-project {
+		height: 500px;
+		width: 650px;
+		background-image: url('gas-mask-2273696.jpg');
+		background-size: cover;
+	}
+	
+	.second {
+		display: none;
+	}
+	
+	.second-first {
+		display: none;
+	}
+	
+	.second-second {
+		display: none;
+	}
+
+	.contact {
+		width: 100%;
+		height: 600px;
+		background-color: #000;
+		position: relative;
+	}
+
+	.contact form {
+		display: flex;
+		flex-direction: column;
+		width: 60%;
+		position: relative;
+		top: 20%;
+		transform: translateY(-50%);
+		left: 50%;
+		transform: translateX(-50%);
+		font-family: Maven Pro, 'Roboto', Helvetica, Verdana, sans-serif;
+	}
+
+}
